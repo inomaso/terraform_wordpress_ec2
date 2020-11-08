@@ -132,6 +132,6 @@ WordPressのインストール画面を進めていくと、データベース�
 $ terraform destroy
 ```
 
-**Enter a value:**で、**yes**と入力します。
+``Enter a value:``で、**yes**と入力します。
 
 リソースの全体削除に7分程度の時間がかかります。
