@@ -71,7 +71,7 @@ TerraformのVソースコードがあるディレクトリに移動します。
 $ terraform init
 ```
 
-**Terraform has been successfully initialized!**と表示されることを確認してください。
+``Terraform has been successfully initialized!``と表示されることを確認してください。
 
 次に実行計画を表示します。
 
@@ -87,7 +87,7 @@ $ terraform plan
 $ terraform apply
 ```
 
-**Enter a value:**で、**yes**と入力します。
+``Enter a value:``で、**yes**と入力します。
 
 RDSはリソース作成が完了するのに約20分程度の時間がかかります。
 
