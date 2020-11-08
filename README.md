@@ -9,27 +9,43 @@
 ## 事前準備
 
 ### awscliインストール
+```
 $ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 $ sudo installer -pkg AWSCLIV2.pkg -target /
 $ aws --version
+```
 
 ### tfenvセットアップ
 - tfenv Terraformのバージョンマネージャーをインストール
+- 
+```
 $ brew install tfenv
 $ tfenv --version
+```
 
 - インストールできるバージョン一覧取得
+
+```
 $ tfenv list-remote
+```
 
 - 特定バージョンをインストール
+
+```
 $ tfenv install 0.13.5
+```
 
 - バージョン切り替え
+
+```
 $ tfenv use 0.13.5
+```
 
 - インストールバージョン取得
-$ tfenv list
 
+```
+$ tfenv list
+```
 
 ### IAMユーザ作成
 AWSマネジメントコンソールにて、Terraformを実行するためのIAMユーザを作成します。
