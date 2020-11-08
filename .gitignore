@@ -1,0 +1,18 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# ssh key
+wp_ec2
+wp_ec2.pub
+
+# other
+*.log
+*.zip
+.DS_Store
