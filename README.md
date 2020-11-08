@@ -2,6 +2,7 @@
 ![image](./configure.drawio.svg)
 
 ## ローカル環境
+- macOS Catalina 10.15.7
 - aws-cli/2.0.54
 - Terraform v0.13.5
 - aws v3.14.1 #Terraform AWS プロバイダー
@@ -17,7 +18,7 @@ $ aws --version
 
 ### tfenvセットアップ
 - tfenv Terraformのバージョンマネージャーをインストール
-- 
+
 ```
 $ brew install tfenv
 $ tfenv --version
@@ -38,7 +39,7 @@ $ tfenv install 0.13.5
 - バージョン切り替え
 
 ```
-$ tfenv use 0.13.5
+$ tfenv use 0.13.5
 ```
 
 - インストールバージョン取得
