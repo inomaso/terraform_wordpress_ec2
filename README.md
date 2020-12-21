@@ -81,7 +81,13 @@ $ ssh-keygen -t rsa -f wp_ec2 -N ''
 ```
 
 ## Terraformリソース作成
-TerraformのVソースコードがあるディレクトリに移動します。
+GitHubからコードをクローンします。
+
+```
+git clone https://github.com/inomaso/terraform_wordpress_ec2.git
+```
+
+Terraformのソースコードがあるディレクトリに移動します。
 まずはリソース作成に必要なバイナリファイルをダウンロードします。
 
 ```
